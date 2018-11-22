@@ -1,6 +1,8 @@
 import React from 'react';
 import { RootURL } from '../../config';
 import Load from '../common/Load';
+import { Route } from 'react-router-dom';
+import NotFound from '../notfound/NotFound';
 import { handleResponse, calcChangePercent } from '../../helper';
 import './DetailCurrency.css';
 
@@ -45,7 +47,7 @@ class DetailCurrency extends React.Component {
         }
 
         if (error) {
-            return <div className="error">{error}</div>
+            return <Route component={NotFound} />
         }
 
         return (
@@ -63,7 +65,7 @@ class DetailCurrency extends React.Component {
                      24-Hour Change: <span className="dt-value">{calcChangePercent(currency.percentChange24h)}</span>
                   </div>
                   <div className="dt-item">
-                     Market cap: <span className="dt-value">$ {currency.marketCap}</span>
+                     Market Cap: <span className="dt-value">$ {currency.marketCap}</span>
                   </div>
                   <div className="dt-item">
                      24 Hour Vol: <span className="dt-value">{currency.volume24h}</span>

@@ -2,11 +2,12 @@
     with: 100%;
     text-align:center;
     margin-top: 50px;
+    background-color: lighblue;
 }
 
 .nf-title {
-    font-weight:bold;
-    color:lighblue;
+    font-weight: bold;
+    color: lighblue;
 }
 
 .nf-link {
