@@ -54,22 +54,22 @@ class DetailCurrency extends React.Component {
 
                <div className="dt-container">
                   <div className="dt-item">
-                     Price <span className="dt-value">$ {currency.price}</span>
+                     Price: <span className="dt-value">$ {currency.price}</span>
                   </div>
                   <div className="dt-item">
-                     Rank <span className="dt-value">{currency.rank}</span>
+                     Rank: <span className="dt-value">{currency.rank}</span>
                   </div>
                   <div className="dt-item">
-                     24-Hour Change <span className="dt-value">{calcChangePercent(currency.percentChange24h)}</span>
+                     24-Hour Change: <span className="dt-value">{calcChangePercent(currency.percentChange24h)}</span>
                   </div>
                   <div className="dt-item">
-                     <span className="dt-title">Market cap</span><span className="dt-dollar">$</span>{currency.marketCap}
+                     Market cap: <span className="dt-value">$ {currency.marketCap}</span>
                   </div>
                   <div className="dt-item">
-                     <span className="dt-title">24 Hour Vol</span><span className="dt-dollar">$</span>{currency.volume24h}
+                     24 Hour Vol: <span className="dt-value">{currency.volume24h}</span>
                   </div>
                   <div className="dt-item">
-                     <span className="dt-title">Tot Supply</span>{currency.totalSupply}
+                     Total Supply: <span className="dt-value">{currency.totalSupply}</span>
                   </div>
                </div>
             </div>

@@ -14,10 +14,10 @@ const CoinTable = (props) => {
         <table className="tb">
            <thead className="tb-head">
                   <tr>
-                      <th>Crypto Name</th>
-                      <th>Price</th>
-                      <th>Market Cap</th>
-                      <th>24 Hour Chg</th>
+                      <th>CRYPTO NAME</th>
+                      <th>PRICE</th>
+                      <th>MARKET CAP</th>
+                      <th>24 HOUR CHG</th>
                   </tr>
            </thead>
            <tbody className="tb-body">

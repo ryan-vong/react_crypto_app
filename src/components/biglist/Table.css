@@ -16,8 +16,8 @@
   padding: 10px 20px;
   color: #afc2d3;
   text-align: left;
-  font-size: 0.8rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 800;
 }
 
 .tb-body {
@@ -30,6 +30,11 @@
   border-bottom: 2px solid #87939e; /* #243647; */
   color: #fff;
   cursor: pointer;
+  font-weight: 400;
+}
+
+.tb-body tr:hover td {
+  background-color: #0d2336;
 }
 
 .tb-rank {

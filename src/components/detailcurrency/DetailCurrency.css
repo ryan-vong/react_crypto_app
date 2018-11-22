@@ -9,13 +9,13 @@
 
 .dt-heading {
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 600;
   font-style: italic;
 }
 
 .dt-container {
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   margin-top: 25px;
   padding: 35px 35px 0 35px;
   border-radius: 5px;
@@ -28,9 +28,10 @@
 .dt-value {
   border-radius: 25px;
   background-color: #182b3d;
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding: 5px 10px;
   margin-left: 5px;
+  font-weight: 400;
 }
 
 .dt-title {

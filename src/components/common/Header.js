@@ -6,8 +6,9 @@ const Header = () => {
  return (
  <div className="Header">
  <Link to="/">
- <img src={applogo} className="Header-logo" alt="logo for ReactJS
-application" />
+ <button type="button" className="button">
+ Cryptocurrency App
+ </button>
  </Link>
  </div>
  );
